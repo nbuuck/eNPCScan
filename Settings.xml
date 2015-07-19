@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!-- Typical path for a nice Windows 7 installation. -->
+  <wow cachePath="C:\Users\Public\Games\World of Warcraft\Cache\WDB\enUS\creaturecache.wdb" />
+  <scan interval="2000" />
+  <targets>
+    <npc id="50062" name="Aeonaxx" />
+  </targets>
+  <mail>
+    <!-- The more common SSL SMTP configuration. -->
+    <!-- <smtpServer host="smtp.domain.com" port="465" useSSL="true" /> -->
+    
+    <!-- A server entry for  another typical SSL setup. -->
+    <smtpServer host="smtp.gmail.com" port="587" useSSL="true" />
+    
+    <!-- A server entry with not encryption (more dangerous that what we're already
+         doing by storing your password in clear text below...). -->
+    <!-- <smtpServer host="smtp.domain.com" port="25" useSSL="false" /> -->
+    
+    <smtpUser name="someone@gmail.com" password="" />
+    <smtpRecipient address="AAAEEENNNN@vtext.com" />
+  </mail>
+</settings>
